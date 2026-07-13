@@ -1,6 +1,6 @@
-#  Plant Disease Detection using CNNs and YOLO
+# Plant Disease Detection using CNNs and YOLO
 
-##  Project Overview
+## Project Overview
 
 Plant diseases significantly impact crop yield and agricultural productivity. This project leverages deep learning techniques to automatically detect and classify plant diseases from leaf images, enabling faster and more accurate diagnosis.
 
@@ -8,7 +8,7 @@ The application supports both disease classification and disease localization us
 
 ---
 
-##  Features
+## Features
 
 *  Plant disease classification from leaf images
 *  Disease region detection using YOLO
@@ -20,7 +20,7 @@ The application supports both disease classification and disease localization us
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 * Python
 * Flask
@@ -35,7 +35,7 @@ The application supports both disease classification and disease localization us
 
 ---
 
-## 🤖 Deep Learning Models
+## Deep Learning Models
 
 ### Classification Models
 
@@ -58,7 +58,7 @@ The application supports both disease classification and disease localization us
 
 ---
 
-## 📂 Dataset
+## Dataset
 
 This project was developed using publicly available datasets:
 
@@ -69,7 +69,7 @@ The datasets are not included in this repository due to their large size.
 
 ---
 
-## 📷 Application Workflow
+## Application Workflow
 
 1. User registers or logs in.
 2. Upload a plant leaf image.
@@ -79,8 +79,18 @@ The datasets are not included in this repository due to their large size.
 6. The prediction result is displayed on the web interface.
 
 ---
+## Screenshots
+# Plant Disease Classification
+<img width="1432" height="805" alt="Classification" src="https://github.com/user-attachments/assets/256045b0-b6f4-4901-abf4-ef1ed189c00c" />
 
-## 📊 Results
+
+
+
+# Disease Detection using YOLO
+<img width="256" height="256" alt="Detection" src="https://github.com/user-attachments/assets/d9279f28-7872-4fd5-9d10-4bc860eb43dd" />
+
+ 
+## Results
 
 The system evaluates multiple CNN architectures to identify the most effective model for plant disease classification. YOLO models are used to localize infected regions, improving disease visualization and analysis.
 
